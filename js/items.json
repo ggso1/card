@@ -2,31 +2,31 @@
     {
         "title": "Мавка",
         "description": "Мавка — це казкова істота з українського фольклору.",
-        "img": "mavka.jpg"
+        "img": "mavka.png"
+    },
+    {
+        "title": "Мавка",
+        "description": "Мавка — це казкова істота з українського фольклору.",
+        "img": "mavka.png"
     },
     {
         "title": "Лісовик",
         "description": "Лісовик — охоронець лісу в легендах.",
-        "img": "lisovyk.jpg"
+        "img": "lisovick.jpg"
     },
     {
-        "title": "Водяник",
-        "description": "Водяник — дух річки або ставка.",
-        "img": "vodyanyk.jpg"
+        "title": "Чугайстер",
+        "description": "Чугайстер — лісовий дух, що охороняє ліси.",
+        "img": "chugayster.jpg"
     },
   {
-        "title": "Русалка",
-        "description": "Русалка — водяна істота, що живе в ріках і озерах.",
-        "img": "rusalka.jpg"
+        "title": "Чорт",
+        "description": "Чорт — злий дух, що живе в лісі.",
+        "img": "chort.jpg"
     },
     {
-        "title": "Русалка",
-        "description": "Русалка — водяна істота, що живе в ріках і озерах.",
-        "img": "rusalka.jpg"
-    },
-    {
-        "title": "Відьма",
-        "description": "Відьма — жінка, що володіє магічними здібностями.",
-        "img": "vidma.jpg"
+        "title": "Чорт",
+        "description": "Чорт — злий дух, що живе в лісі.",
+        "img": "chort.jpg"
     }
 ]
