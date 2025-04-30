@@ -15,6 +15,7 @@ content {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    overflow: auto; /* Додає прокрутку, якщо елементи виходять за межі */
 }
 
 
@@ -22,12 +23,11 @@ content {
 .title {
     width: auto;
     padding: 10px;
+    margin: 0 auto; /* Центрування */
     margin-top: 10px;
-
     background-color: rgb(253, 48, 48);
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     color: white;
     text-transform: uppercase;
     font-size: 20px;
@@ -60,7 +60,10 @@ content {
 }
 
 .item-image img {
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 
