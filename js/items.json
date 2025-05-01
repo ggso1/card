@@ -2,22 +2,22 @@
     {
         "title": "Мавка",
         "description": "Мавка — це казкова істота з українського фольклору.",
-        "img": "mavka.png"
+        "img": "mavki.jpg"
     },
     {
-        "title": "Мавка",
+        "title": "Чугайстер",
         "description": "Мавка — це казкова істота з українського фольклору.",
-        "img": "mavka.png"
+        "img": "chuhaister.jpg"
     },
     {
         "title": "Лісовик",
         "description": "Лісовик — охоронець лісу в легендах.",
-        "img": "lisovick.jpg"
+        "img": "lisovic.jpg"
     },
     {
-        "title": "Чугайстер",
+        "title": "Потерчата",
         "description": "Чугайстер — лісовий дух, що охороняє ліси.",
-        "img": "chugayster.jpg"
+        "img": "poterchata.jpg"
     },
   {
         "title": "Чорт",
@@ -25,8 +25,8 @@
         "img": "chort.jpg"
     },
     {
-        "title": "Чорт",
+        "title": "Шубін",
         "description": "Чорт — злий дух, що живе в лісі.",
-        "img": "chort.jpg"
+        "img": "shubin.jpg"
     }
 ]
