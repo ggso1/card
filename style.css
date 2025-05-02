@@ -40,23 +40,20 @@ content {
     flex-direction: row;
     padding: 20px;
     gap: 0;
-    width: calc(200px * 5); /* Ширина для 5 карток */
     overflow: hidden;
-    justify-content: center; /* Центрування карток по горизонталі */
+    justify-content: center; 
 }
 
 .item {
     width: 200px;
-    height: 400px;
-    margin-left: -50px; /* Накладання */
-    background-color: #ffffff;
-    border: 1px solid rgb(194, 194, 194);
-    border-radius: 5px;
+    height: 350px;
+    margin-left: -50px;
+    border-radius: 6px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, z-index 0.3s;
     position: relative;
     z-index: 1;
-    flex-shrink: 0; /* Не стискати */
+    flex-shrink: 0; 
 }
 
 .item:first-child {
@@ -94,15 +91,17 @@ content {
     background-color: rgba(0, 0, 0, 0.6);
   }
   
-  .modal-content {
+.modal-content {
     background-color: #fff;
-    margin: 10% auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    max-width: none;
+    border-radius: 0;
     padding: 20px;
-    width: 80%;
-    max-width: 500px;
-    border-radius: 8px;
-    position: relative;
-  }
+}
   
   .modal .close {
     position: absolute;
