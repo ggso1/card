@@ -16,8 +16,10 @@ async function buildItems() {
         itemsDiv.addEventListener('click', () => {
             document.getElementById('modal-title').innerText = item.title;
             document.getElementById('modal-description').innerText = item.description;
+            document.getElementById('modal-image').src = `img/${item.modalImg}`;
             document.getElementById('modal').style.display = 'block';
         });
+        
 
         document.getElementById('items').appendChild(itemsDiv);
     });
